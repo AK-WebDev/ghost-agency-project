@@ -1,0 +1,196 @@
+* {
+    font-family    : poppins;
+    box-sizing     : border-box;
+    color          : white;
+    text-decoration: none;
+    margin         : 0;
+    padding        : 0;
+}
+body {
+    background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%) no-repeat fixed;
+}
+
+header {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.container {
+    max-width      : 1115px;
+    margin         : 0 auto;
+    padding-top    : 50px;
+    display        : flex;
+    justify-content: space-between;
+    height         : 100%;
+    flex-direction : column;
+}
+
+.container .logodiv {
+    display: flex;
+}
+
+.container .logodiv p {
+    padding-left: 15px;
+    font-style  : normal;
+    font-weight : bold;
+    font-size   : 16px;
+    line-height : 120%;
+}
+
+.container nav a {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #FF5B79;
+    margin-left: 55px;
+}
+
+.container nav a:hover {
+    color: #e9c6cc;
+}
+
+.container nav a:nth-child(5) {
+    border       : 1px solid #FF5B79;
+    border-radius: 50px;
+    font-weight  : 600;
+    padding      : 10px 20px;
+    transition   : 0.4s;
+}
+
+.container nav a:nth-child(5):hover {
+    border    : 1px solid #e9c6cc;
+    transition: 0.4s;
+}
+
+.skull {
+    padding-bottom: 120px;
+    position: relative;
+    
+}
+
+
+.block_pointer {
+    display: flex;
+    position:absolute;
+    bottom: -10px;;
+    left: -74px;
+
+}
+
+.pointertxt {
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    align-items    : flex-end;
+    padding-right  : 20px;
+    
+}
+
+.pointertxt span {
+    font-weight: bold;
+    font-size  : 20px;
+    line-height: 180%;
+}
+.pointer {
+
+}
+
+.midl_container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 219px;
+    
+}
+
+.blocktxt,
+.blockbtn {
+    margin-left: 105px;
+
+}
+
+.blocktxt h1 {
+    font-weight   : 900;
+    font-size     : 68px;
+    padding-right : 107px;
+    line-height   : 109%;
+    padding-bottom: 25px;
+}
+
+.blocktxt h2 {
+    font-weight   : bold;
+    font-size     : 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color         : #FF5B79;
+    padding-bottom: 14px;
+}
+
+.blocktxt p {
+    font-size     : 16px;
+    line-height   : 180%;
+    opacity       : 0.8;
+    padding-bottom: 50px;
+}
+
+.blockbtn {
+    display        : flex;
+    justify-content: space-between;
+    padding-bottom : 150px;
+
+}
+
+.btn-pink {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    background-image: url(img/Btn_Pink.svg);
+    background-size : 100% 100%;
+    width           : 170px;
+    height          : 83px;
+
+}
+
+.blockbtn {
+    display        : flex;
+    justify-content: space-between;
+}
+
+
+.btn-right {
+    display    : flex;
+    align-items: center;
+}
+
+.btn-right a {
+    display      : flex;
+    align-items  : center;
+    padding-right: 10px;
+    font-weight  : 600;
+    font-size    : 15px;
+}
+
+.btm_container {
+    display        : flex;
+    justify-content: center;
+
+}
+
+.btm_container a {
+    text-align      : center;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    background-image: url(img/Btn_Pink_Outline.svg);
+    background-size : 100% 100%;
+    width           : 170px;
+    height          : 83px;
+    margin          : 0px 124px 50px 0px;
+}
+
