@@ -7,7 +7,22 @@
     padding        : 0;
 }
 body {
+    height: 100%;
+    width: 100%;
+}
+.background {
     background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%) no-repeat fixed;
+height: 100%;
+position: relative;
+z-index: -2;
+}
+
+.light_effects {
+    position: absolute;
+    left: 151px;
+    bottom: 100px;
+    z-index: -1;
+    
 }
 
 header {
@@ -110,6 +125,7 @@ header {
 .blocktxt,
 .blockbtn {
     margin-left: 105px;
+    z-index: -2;
 
 }
 
