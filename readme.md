@@ -6,3 +6,6 @@
  
  Layout Preview :
  ![alt text](https://github.com/AK-WebDev/ghost-agency-project/blob/master/Maquette%20Figma/1.%20IBLIZ%20INC.png?raw=true)
+ 
+ Result : 
+ https://ak-webdev.github.io/ghost-agency-project/
